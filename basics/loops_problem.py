@@ -85,12 +85,29 @@
 #     print()
 
 # ---------------------- End of Problem 8 ----------------------
+# n = int(input("Enter a number: "))
+# for i in range(1,n+1):
+#     if(i == 1 or i == n):
+#         print("*"*n)
+
+#     else:
+#         print("*" + " "*(n-2) + "*")
+
+#     print("")
+
+# ---------------------- End of Problem 9 ----------------------
+# Write a program to print the following star pattern.
+# *
+# **
+# ***
+# **
+# * for n = 3
+
 n = int(input("Enter a number: "))
 for i in range(1,n+1):
-    if(i == 1 or i == n):
-        print("*"*n)
+    print("*"*i)
+    print()
 
-    else:
-        print("*" + " "*(n-2) + "*")
-
-    print("")
+for i in range(n-1,0,-1):
+    print("*"*i)
+    print()
